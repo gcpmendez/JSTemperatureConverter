@@ -1,2 +1,0 @@
-# JSTemperatureConverter
-JavaScript Temperature Converter
