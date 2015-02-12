@@ -16,4 +16,14 @@ suite('temperature', function() {
         calculate();
         assert.match(converted.innerHTML, /ERROR/);
     });
+    test('1C = 33.8 Farenheit', function() {
+        original.value = "1C";
+        calculate();
+        assert.deepEqual(converted.innerHTML, "33.8 Farenheit");
+    });
+    test('7 = error', function() {
+        original.value = "7";
+        calculate();
+        assert.match(converted.innerHTML, /ERROR/);
+    });
 });
