@@ -1,11 +1,5 @@
 var assert = chai.assert;
 
-require('blanket')({
-    pattern: function (filename) {
-        return !/node_modules/.test(filename);
-    }
-});
-
 suite('temperature', function() {
     test('32F = 0C', function() {
         original.value = "32F";
