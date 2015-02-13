@@ -31,13 +31,5 @@
     "mocha": "^2.1.0",
     "node-static": "^0.7.6"
   }
-  "config": {
-    "blanket": {
-        "pattern": [
-            "test/test1.js"
-            "test/domain/test2.js"
-        ]
-    }
 }
-
 }
