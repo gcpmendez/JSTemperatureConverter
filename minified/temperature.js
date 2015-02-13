@@ -1,0 +1,1 @@
+"use strict";function calculate(){var e,t=document.getElementById("original"),n=t.value,i=/([-+]?\d+(?:\.\d*)?)\s*([fFcC])/,a=n.match(i);if(a){var c=a[1],r=a[2];c=parseFloat(c),"c"==r||"C"==r?(e=9*c/5+32,e=e.toFixed(1)+" Farenheit"):(e=5*(c-32)/9,e=e.toFixed(1)+" Celsius"),converted.innerHTML=e}else converted.innerHTML="ERROR!"}
