@@ -1,15 +1,15 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/bin/node',
 1 verbose cli   '/usr/bin/npm',
-1 verbose cli   'i',
-1 verbose cli   'gulp-minify.html',
-1 verbose cli   '--save-dev' ]
+1 verbose cli   'install',
+1 verbose cli   '/home/dru/Escritorio/PL - Procesadores de Lenguajes/P - Prácticas/P1/Pr1_PL_1415/mocha-blanket.js' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.36
 4 verbose node symlink /usr/bin/node
 5 verbose readDependencies using package.json deps
-6 verbose cache add [ 'gulp-minify.html', null ]
-7 verbose cache add name=undefined spec="gulp-minify.html" args=["gulp-minify.html",null]
+6 verbose cache add [ '/home/dru/Escritorio/PL - Procesadores de Lenguajes/P - Prácticas/P1/Pr1_PL_1415/mocha-blanket.js',
+6 verbose cache add   null ]
+7 verbose cache add name=undefined spec="/home/dru/Escritorio/PL - Procesadores de Lenguajes/P - Prácticas/P1/Pr1_PL_1415/mocha-blanket.js" args=["/home/dru/Escritorio/PL - Procesadores de Lenguajes/P - Prácticas/P1/Pr1_PL_1415/mocha-blanket.js",null]
 8 verbose parsed url { protocol: null,
 8 verbose parsed url   slashes: null,
 8 verbose parsed url   auth: null,
@@ -19,71 +19,36 @@
 8 verbose parsed url   hash: null,
 8 verbose parsed url   search: null,
 8 verbose parsed url   query: null,
-8 verbose parsed url   pathname: 'gulp-minify.html',
-8 verbose parsed url   path: 'gulp-minify.html',
-8 verbose parsed url   href: 'gulp-minify.html' }
-9 silly lockFile 26f8ca51-gulp-minify-html gulp-minify.html
-10 verbose lock gulp-minify.html /root/.npm/26f8ca51-gulp-minify-html.lock
-11 silly lockFile 26f8ca51-gulp-minify-html gulp-minify.html
-12 silly lockFile 26f8ca51-gulp-minify-html gulp-minify.html
-13 verbose addNamed [ 'gulp-minify.html', '' ]
-14 verbose addNamed [ null, '*' ]
-15 silly lockFile 6c700d23-gulp-minify-html gulp-minify.html@
-16 verbose lock gulp-minify.html@ /root/.npm/6c700d23-gulp-minify-html.lock
-17 silly addNameRange { name: 'gulp-minify.html', range: '*', hasData: false }
-18 verbose request where is /gulp-minify.html
-19 verbose request registry https://registry.npmjs.org/
-20 verbose request id bbdbdde29759d512
-21 verbose url raw /gulp-minify.html
-22 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-minify.html' ]
-23 verbose url resolved https://registry.npmjs.org/gulp-minify.html
-24 verbose request where is https://registry.npmjs.org/gulp-minify.html
-25 info trying registry request attempt 1 at 08:39:10
-26 http GET https://registry.npmjs.org/gulp-minify.html
-27 http 404 https://registry.npmjs.org/gulp-minify.html
-28 verbose headers { date: 'Fri, 13 Feb 2015 08:39:12 GMT',
-28 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-28 verbose headers   'content-type': 'application/json',
-28 verbose headers   'cache-control': 'max-age=0',
-28 verbose headers   'content-length': '52',
-28 verbose headers   'accept-ranges': 'bytes',
-28 verbose headers   via: '1.1 varnish',
-28 verbose headers   age: '0',
-28 verbose headers   'x-served-by': 'cache-lhr6322-LHR',
-28 verbose headers   'x-cache': 'MISS',
-28 verbose headers   'x-cache-hits': '0',
-28 verbose headers   'x-timer': 'S1423816751.953071,VS0,VE625',
-28 verbose headers   'keep-alive': 'timeout=10, max=50',
-28 verbose headers   connection: 'Keep-Alive' }
-29 silly registry.get cb [ 404,
-29 silly registry.get   { date: 'Fri, 13 Feb 2015 08:39:12 GMT',
-29 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-29 silly registry.get     'content-type': 'application/json',
-29 silly registry.get     'cache-control': 'max-age=0',
-29 silly registry.get     'content-length': '52',
-29 silly registry.get     'accept-ranges': 'bytes',
-29 silly registry.get     via: '1.1 varnish',
-29 silly registry.get     age: '0',
-29 silly registry.get     'x-served-by': 'cache-lhr6322-LHR',
-29 silly registry.get     'x-cache': 'MISS',
-29 silly registry.get     'x-cache-hits': '0',
-29 silly registry.get     'x-timer': 'S1423816751.953071,VS0,VE625',
-29 silly registry.get     'keep-alive': 'timeout=10, max=50',
-29 silly registry.get     connection: 'Keep-Alive' } ]
-30 silly lockFile 6c700d23-gulp-minify-html gulp-minify.html@
-31 silly lockFile 6c700d23-gulp-minify-html gulp-minify.html@
-32 error 404 404 Not Found: gulp-minify.html
-32 error 404
-32 error 404 'gulp-minify.html' is not in the npm registry.
-32 error 404 You should bug the author to publish it
-32 error 404 It was specified as a dependency of 'JSTemperatureConverter'
-32 error 404
-32 error 404 Note that you can also install from a
-32 error 404 tarball, folder, or http url, or git url.
-33 error System Linux 3.13.0-45-generic
-34 error command "/usr/bin/node" "/usr/bin/npm" "i" "gulp-minify.html" "--save-dev"
-35 error cwd /home/dru/Escritorio/PL - Procesadores de Lenguajes/P - Prácticas/P1/JSTemperatureConverter
-36 error node -v v0.10.36
-37 error npm -v 1.4.28
-38 error code E404
-39 verbose exit [ 1, true ]
+8 verbose parsed url   pathname: '/home/dru/Escritorio/PL%20-%20Procesadores%20de%20Lenguajes/P%20-%20Prácticas/P1/Pr1_PL_1415/mocha-blanket.js',
+8 verbose parsed url   path: '/home/dru/Escritorio/PL%20-%20Procesadores%20de%20Lenguajes/P%20-%20Prácticas/P1/Pr1_PL_1415/mocha-blanket.js',
+8 verbose parsed url   href: '/home/dru/Escritorio/PL%20-%20Procesadores%20de%20Lenguajes/P%20-%20Prácticas/P1/Pr1_PL_1415/mocha-blanket.js' }
+9 silly lockFile 631cc9ef--P1-Pr1-PL-1415-mocha-blanket-js /home/dru/Escritorio/PL - Procesadores de Lenguajes/P - Prácticas/P1/Pr1_PL_1415/mocha-blanket.js
+10 verbose lock /home/dru/Escritorio/PL - Procesadores de Lenguajes/P - Prácticas/P1/Pr1_PL_1415/mocha-blanket.js /home/dru/.npm/631cc9ef--P1-Pr1-PL-1415-mocha-blanket-js.lock
+11 verbose chmod /tmp/npm-3281-zntnnUxr/1424865561944-0.42316364753060043/tmp.tgz 644
+12 verbose tar unpack /tmp/npm-3281-zntnnUxr/1424865561944-0.42316364753060043/tmp.tgz
+13 silly lockFile 9518764d-42316364753060043-tmp-tgz-unpack tar:///tmp/npm-3281-zntnnUxr/1424865561944-0.42316364753060043/tmp.tgz-unpack
+14 verbose lock tar:///tmp/npm-3281-zntnnUxr/1424865561944-0.42316364753060043/tmp.tgz-unpack /home/dru/.npm/9518764d-42316364753060043-tmp-tgz-unpack.lock
+15 silly lockFile 7f2f2723-1944-0-42316364753060043-tmp-tgz tar:///tmp/npm-3281-zntnnUxr/1424865561944-0.42316364753060043/tmp.tgz
+16 verbose lock tar:///tmp/npm-3281-zntnnUxr/1424865561944-0.42316364753060043/tmp.tgz /home/dru/.npm/7f2f2723-1944-0-42316364753060043-tmp-tgz.lock
+17 silly gunzTarPerm modes [ '755', '644' ]
+18 error not a package /tmp/npm-3281-zntnnUxr/1424865561944-0.42316364753060043/tmp.tgz
+19 silly lockFile 9518764d-42316364753060043-tmp-tgz-unpack tar:///tmp/npm-3281-zntnnUxr/1424865561944-0.42316364753060043/tmp.tgz-unpack
+20 silly lockFile 9518764d-42316364753060043-tmp-tgz-unpack tar:///tmp/npm-3281-zntnnUxr/1424865561944-0.42316364753060043/tmp.tgz-unpack
+21 silly lockFile 7f2f2723-1944-0-42316364753060043-tmp-tgz tar:///tmp/npm-3281-zntnnUxr/1424865561944-0.42316364753060043/tmp.tgz
+22 silly lockFile 7f2f2723-1944-0-42316364753060043-tmp-tgz tar:///tmp/npm-3281-zntnnUxr/1424865561944-0.42316364753060043/tmp.tgz
+23 silly lockFile 631cc9ef--P1-Pr1-PL-1415-mocha-blanket-js /home/dru/Escritorio/PL - Procesadores de Lenguajes/P - Prácticas/P1/Pr1_PL_1415/mocha-blanket.js
+24 silly lockFile 631cc9ef--P1-Pr1-PL-1415-mocha-blanket-js /home/dru/Escritorio/PL - Procesadores de Lenguajes/P - Prácticas/P1/Pr1_PL_1415/mocha-blanket.js
+25 error addLocal Could not install /home/dru/Escritorio/PL - Procesadores de Lenguajes/P - Prácticas/P1/Pr1_PL_1415/mocha-blanket.js
+26 error Error: ENOENT, open '/tmp/npm-3281-zntnnUxr/1424865561944-0.42316364753060043/tmp.tgz-unpack/package.json'
+27 error If you need help, you may report this *entire* log,
+27 error including the npm and node versions, at:
+27 error     <http://github.com/npm/npm/issues>
+28 error System Linux 3.13.0-45-generic
+29 error command "/usr/bin/node" "/usr/bin/npm" "install" "/home/dru/Escritorio/PL - Procesadores de Lenguajes/P - Prácticas/P1/Pr1_PL_1415/mocha-blanket.js"
+30 error cwd /home/dru/Escritorio/PL - Procesadores de Lenguajes/P - Prácticas/P1/Pr1_PL_1415
+31 error node -v v0.10.36
+32 error npm -v 1.4.28
+33 error path /tmp/npm-3281-zntnnUxr/1424865561944-0.42316364753060043/tmp.tgz-unpack/package.json
+34 error code ENOENT
+35 error errno 34
+36 verbose exit [ 34, true ]
