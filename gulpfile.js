@@ -5,6 +5,7 @@ var gulp    = require('gulp'),
 var del     = require('del');
 var minifyHTML = require('gulp-minify-html');
 var minifyCSS  = require('gulp-minify-css');
+var karma = require('gulp-karma');
 
 gulp.task('minify', function () {
   gulp.src('temperature.js')
@@ -23,3 +24,23 @@ gulp.task('minify', function () {
 gulp.task('clean', function(cb) {
   del(['minified/*'], cb);
 });
+
+gulp.task('test', function() {
+	return gulp.src([])
+		.pipe(karma({
+		configFile: 'karma.conf.js',
+		action: 'run'
+	}))
+	.on('error', function(err) {
+		throw err;
+	});
+});
+
+gulp.task('default', function() {
+	gulp.src([])
+	.pipe(karma({
+		configFile: 'karma.conf.js',
+		action: 'watch'
+	}));
+});
+
