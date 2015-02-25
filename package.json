@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "google-chrome ./tests/index.html"
+    "test": "google-chrome ./tests/index.html",
+	"test": "./node_modules/karma/bin/karma start --single-run --browsers Firefox"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "karma-chrome-launcher": "^0.1.7",
     "karma-firefox-launcher": "^0.1.4",
     "karma-mocha": "^0.1.10",
+	"karma":"~0.12",
     "mocha": "^2.1.0",
     "node-static": "^0.7.6"
   }
