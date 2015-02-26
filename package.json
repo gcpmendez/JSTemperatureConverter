@@ -7,12 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "google-chrome ./tests/index.html",
-	"test": "./node_modules/karma/bin/karma start --single-run --browsers Firefox",
-"test": "./node_modules/karma/bin/karma start --single-run",
-
-
-	"karma": "node_modules/karma/bin/karma start"
+	"test": "gulp test"
   },
   "repository": {
     "type": "git",
