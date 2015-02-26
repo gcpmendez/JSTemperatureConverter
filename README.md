@@ -4,16 +4,16 @@
 <h2><b>Procesadores de lenguajes</b></h2>
 <p>Práctica 1: conversor de temperaturas con Karma y Travis</p>
 
-> Autores: Germán C. Paz Méndez y Carlos Troyano Carmona.
+ Autores: Germán C. Paz Méndez y Carlos Troyano Carmona.
 
-><a HREF="http://gcpmendez.github.io/">Github Pages</a>
+<a HREF="http://gcpmendez.github.io/">Github Pages</a>
 <br>
-><a HREF="https://github.com/gcpmendez/Pr1_PL_1415">Repositories</a>
+<a HREF="https://github.com/gcpmendez/Pr1_PL_1415">Repositories</a>
 
 ## Uso
 
-	> Utilizar el conversor [<a HREF="http://gcpmendez.github.io/Pr1_PL_1415">1</a>]. 
-	Ver los tests [<a HREF="http://gcpmendez.github.io/Pr1_PL_1415/tests">2</a>] generados.
+	> Utilizar el conversor [1](http://gcpmendez.github.io/Pr1_PL_1415). 
+	Ver los tests [2](http://gcpmendez.github.io/Pr1_PL_1415/tests/) generados.
 
 	Nota: para probar gulp y karma simplemente deberá realizar un clone de la rama y,
 	una vez situados en ella, ejecutar un npm install, con lo que se descargará
