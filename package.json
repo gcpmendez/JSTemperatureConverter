@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gcpmendez/JSTemperatureConverter.git"
+    "url": "https://github.com/gcpmendez/Pr1_PL_1415.git"
   },
   "author": "Germán Paz Méndez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gcpmendez/JSTemperatureConverter/issues"
   },
-  "homepage": "https://github.com/gcpmendez/JSTemperatureConverter",
+  "homepage": "https://github.com/gcpmendez/Pr1_PL_1415",
   "devDependencies": {
     "blanket": "^1.1.6",
     "chai": "^2.0.0",
