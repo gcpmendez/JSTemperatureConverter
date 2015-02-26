@@ -10,7 +10,6 @@
     "test": "google-chrome ./tests/index.html",
 	"test": "./node_modules/karma/bin/karma start --single-run --browsers Firefox",
 "test": "./node_modules/karma/bin/karma start --single-run",
-"test": "open index.html",
 
 
 	"karma": "node_modules/karma/bin/karma start"
