@@ -1,6 +1,6 @@
 # PL - 1415 - Práctica 1 + Karma + Travis
 <center>
----
+
 <h2><b>Procesadores de lenguajes</b></h2>
 <p>Práctica 1: conversor de temperaturas con Karma y Travis</p>
 
@@ -12,7 +12,7 @@
 
 ## Uso
 
-	Utilizar el conversor[1](http://gcpmendez.github.io/Pr1_PL_1415). 
+	> Utilizar el conversor[1](http://gcpmendez.github.io/Pr1_PL_1415). 
 	Ver los tests[2](http://gcpmendez.github.io/Pr1_PL_1415/tests/) generados.
 
 	Nota: para probar gulp y karma simplemente deberá realizar un clone de la rama y,
