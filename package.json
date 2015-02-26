@@ -2,7 +2,7 @@
   "name": "Pr1_PL_1415",
   "version": "1.0.0",
   "description": "Práctica1",
-  "main": "temperature.js",
+  "main": "js/temperature.js",
   "directories": {
     "test": "tests"
   },
