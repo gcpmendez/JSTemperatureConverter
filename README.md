@@ -9,7 +9,7 @@
 ><A HREF="http://gcpmendez.github.io/">Github Pages</A>
 <br>
 ><A HREF="https://github.com/gcpmendez/Pr1_PL_1415">Repositories</A>
---
+-
 ## Uso
 
 	Utilizar el conversor[1](http://gcpmendez.github.io/Pr1_PL_1415). 
