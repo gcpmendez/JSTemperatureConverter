@@ -26,5 +26,4 @@
 ## Travis
 
 [![Build Status](https://api.travis-ci.org/gcpmendez/conversor-karma.svg?branch=gh-pages)](https://travis-ci.org/gcpmendez/conversor-karma)
->
 </center>
