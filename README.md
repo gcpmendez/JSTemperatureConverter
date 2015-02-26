@@ -25,5 +25,4 @@
 
 ## Travis
 
-[![Build Status](https://travis-ci.org/gcpmendez/Pr1_PL_1415.svg?branch=gh-pages)](https://travis-ci.org/gcpmendez/Pr1_PL_1415)
 </center>
