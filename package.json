@@ -17,7 +17,7 @@
   "author": "Germán Paz Méndez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gcpmendez/JSTemperatureConverter/issues"
+    "url": "https://github.com/gcpmendez/Pr1_PL_1415/issues"
   },
   "homepage": "https://github.com/gcpmendez/Pr1_PL_1415",
   "devDependencies": {
@@ -32,6 +32,7 @@
 	"karma-html2js-preprocessor": "*",
     "karma-chrome-launcher": "^0.1.7",
     "karma-firefox-launcher": "^0.1.4",
+	"karma-html-reporter":"*",
     "karma-mocha": "^0.1.10",
 	"karma":"~0.12",
     "mocha": "^2.1.0",
