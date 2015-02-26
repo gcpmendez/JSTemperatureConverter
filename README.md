@@ -1,6 +1,6 @@
 # PL - 1415 - Práctica 1 + Karma + Travis
 <center>
-
+--
 <h2><b>Procesadores de lenguajes</b></h2>
 <p>Práctica 1: conversor de temperaturas con Karma y Travis</p>
 
