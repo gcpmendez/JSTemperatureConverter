@@ -6,14 +6,14 @@
 
 > Autores: Germán C. Paz Méndez y Carlos Troyano Carmona.
 
-><A HREF="http://gcpmendez.github.io/">Github Pages</A>
+><a HREF="http://gcpmendez.github.io/">Github Pages</a>
 <br>
-><A HREF="https://github.com/gcpmendez/Pr1_PL_1415">Repositories</A>
+><a HREF="https://github.com/gcpmendez/Pr1_PL_1415">Repositories</a>
 
 ## Uso
 
-	> Utilizar el conversor [1](http://gcpmendez.github.io/Pr1_PL_1415). 
-	Ver los tests [2](http://gcpmendez.github.io/Pr1_PL_1415/tests/) generados.
+	> Utilizar el conversor [<a HREF="http://gcpmendez.github.io/Pr1_PL_1415">1</a>]. 
+	Ver los tests [<a HREF="http://gcpmendez.github.io/Pr1_PL_1415/tests">2</a>] generados.
 
 	Nota: para probar gulp y karma simplemente deberá realizar un clone de la rama y,
 	una vez situados en ella, ejecutar un npm install, con lo que se descargará
